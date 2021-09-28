@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulario de contacto. Horarios de atención">
+    <meta name="keywords" content="Contacto, Horarios, G Salud Contacto, G Salud Horario, G Salud telefono">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    <header class="header__inicio">
+        <h1 class="header__title"><a href="../index.html">G Salud</a></h1>
+        <nav class="header__navegacion">
+            <ul class="header__navegacion__list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="planes-cartillamedica.html">Planes y Cartilla Médica</a></li>
+                <li><a href="tramites.html">Trámites</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="formulario">
+        <h2 class="formularioTitle">Contacto</h2>
+        <img class="imageContacto" src="https://destinonegocio.com/wp-content/uploads/2018/07/servicio-al-cliente1.jpg"
+            alt="atención-cliente" width="663">
+        <h3>Realizá tu consulta</h3>
+        <form class="formularioContenido">
+            <div>
+                <p>¿Sos Afiliado a G Salud? * </p>
+                <label for="si-afiliado">Si</label>
+                <input type="radio" id="si-afiliado" name="afiliado" value="si-afiliado">
+                <label for="no-afiliado">No</label>
+                <input type="radio" id="no-afiliado" name="afiliado" value="no-afiliado">
+            </div>
+
+            <div>
+                <input required name="nombre" id="nombre" type="text" placeholder="Nombre *">
+            </div>
+
+            <div>
+                <input required name="apellido" id="apellido" type="text" placeholder="Apellido *">
+            </div>
+
+            <div>
+                <input required name="email" id="email" type="text" placeholder="Email *">
+            </div>
+            <div>
+                <input required name="telefono" id="telefono" type="number" placeholder="Teléfono *">
+            </div>
+            <div>
+                <input required name="dni" id="dni" type="number" placeholder="DNI *">
+            </div>
+            <div>
+                <select required name="provincia" id="provincia">
+                    <option value="0">Seleccione su provincia *</option>
+                    <option value="buenos-aires">Buenos Aires</option>
+                    <option value="cordoba">Cordoba</option>
+                    <option value="mendoza">Mendoza</option>
+                    <option value="santa-fe">Santa Fe</option>
+                </select>
+            </div>
+            <div>
+                <label for="consulta">Ingrese su consulta *</label>
+                <br>
+                <textarea required name="consulta" id="consulta" cols="30" rows="10"></textarea>
+            </div>
+
+            <div>
+                <label for="checkbox">Terminos y Condiciones * </label>
+                <input required name="checkbox-tyc" type="checkbox" id="checkbox-tyc">
+            </div>
+            <div>
+                <p>* Campos Obligatorios</p>
+            </div>
+
+            <div>
+                <input type="reset" value="Restablecer campos">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+    <div class="horario">
+        <h2 class="horarios__title">Horarios de Atención al Afiliado y Asesoramiento</h2>
+        <p class="horarios__contenido"> Días y horarios de atención Telefónico y Virtual:
+            <br>Lunes a Viernes de 8:00 a 20:00hs.
+            <br>Sábados y Feriados de 9:00 a 17:00hs.
+            <br>
+            <br>Presencial Córdoba Capital:
+            <br>Lunes a Viernes de 8.00 a 20.00 hs.
+        </p>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__menu">
+            <ul class="footer__menu__list">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="planes-cartillamedica.html">Planes y Cartilla Médica</a></li>
+                <li><a href="tramites.html">Trámites</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="footer_informacion__contacto">
+            <p>Información de contacto</p>
+            <p>info@gsalud.com</p>
+            <p>+54 (9) 3513445566</p>
+            <p>Av. Sabatini 57, 2do piso, Córdoba, Argentina</p>
+        </div>
+        <div class="redesSociales">
+            <div>
+                <img src="https://image.flaticon.com/icons/png/128/2111/2111463.png" alt="instagram-logo" width="30"> 
+                <p>G Salud Oficial</p></div>
+            <div>
+                <img src="https://image.flaticon.com/icons/png/128/1384/1384053.png" alt="facebook-logo" width="30"> 
+                <p>G Salud Oficial</p>
+            </div>
+            <div>
+                <img src="https://image.flaticon.com/icons/png/128/174/174879.png" alt="wpp-logo" width="30">
+                <p>+54 (9) 3513445566</p>
+            </div>
+            <div>
+                <img src="https://image.flaticon.com/icons/png/128/174/174876.png" alt="tw-logo" width="30">
+                <p>G Salud Ok</p>
+            </div>
+            
+            <div>
+                <img src="https://image.flaticon.com/icons/png/128/174/174857.png" alt="linkedin-logo" width="30">
+                <p>G Salud Company</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif
+}
+html {
+    font-size: 62.5%;
+    /* por defecto es 100%, 62.5% cambia la base de 16px a 10px*/
+}
+
+.header__inicio {
+    color: white;
+    background-color: $cverde;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.header__title {
+    padding-top: 0.5rem;
+    padding-left: 7rem;
+}
+
+.header__title a {
+    font-weight: 600;
+    font-size: 250%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header__navegacion {
+    text-align: right;
+    padding-top: 3rem;
+}
+
+
+.header__navegacion li {
+    font-size: 200%;
+    display: inline;
+    margin: 3rem;
+    transition: font-size 0.3s;
+}
+
+.header__navegacion li:hover {
+    font-size: 220%;
+}
+
+.header__navegacion__list li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer {
+    color: #ffffff;
+    background-color: $cverde;
+    font-size: 150%;
+    display: flex;
+    justify-content: space-around;
+    height: 18rem;
+}
+
+.footer__menu__list {
+    list-style-type: none;
+}
+
+.footer__menu__list li {
+    margin: 1rem;
+}
+
+.footer__menu__list a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer_informacion__contacto p {
+    margin: 1rem;
+}
+
+.redesSociales{
+    display: flex;
+    flex-direction: column;
+}
+
+.redesSociales div{
+    display: flex;
+    text-align: center;
+}

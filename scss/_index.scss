@@ -1,0 +1,128 @@
+
+.textBanner {
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    font-weight: 600;
+    font-size: 500%;
+    color: #ffffff;
+    width: 40rem;
+    text-align: center;
+    z-index: 1;
+    background-color: #bdbdbd3b;
+}
+
+.iconwhatsapp{
+    display: flex;
+    position: fixed;
+    top: 85%;
+    left: 93%;
+    justify-content: flex-end;
+    z-index: 2;
+}
+
+.iconwhatsapp img {
+    width: 65px;
+}
+
+.planInicio {
+    display: flex;
+    background-color: #ffffff;
+    color: #0f9932;
+    align-items: center;
+
+}
+
+.planInicioContent {
+    color: #575756;
+    font-size: 230%;
+    text-align: center;
+}
+
+.planInicioTitle {
+    color: #0f9932;
+    font-size: 400%;
+    font-weight: 600;
+    text-decoration: none;
+    transition: font-size 0.5s;
+}
+
+.planInicioTitle:hover {
+    font-size: 450%;
+}
+
+.planInicioList {
+    padding-top: 4rem;
+
+}
+
+.planInicioList li {
+    display: inline;
+    font-size: 100%;
+    background-color: #0f9932;
+    border-radius: 0 5px;
+    color: #ffffff;
+    padding: 1rem;
+    margin: 0rem 2rem;
+    transition: padding 0.5s;
+}
+
+.planInicioList li:hover {
+    padding: 2rem;
+}
+
+
+.opcion {
+    color: #0f9932;
+    height: 100%;
+}
+
+.opcionList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.opcionList li {
+    margin: 5rem;
+    flex-direction: row;
+    list-style-type: none;
+    color: #0f9932;
+    font-size: 200%;
+    padding: 1rem;
+}
+
+
+
+.opcionList li div {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.opcionList a {
+    color: #0f9932;
+    text-decoration: none;
+}
+
+.opcionList a img {
+    transition: width 0.5s;
+}
+
+.opcionList a img:hover {
+    width: 65px;
+}
+
+.contactoInicio{
+    background-color: #f2f2f2;
+    height: 100%;
+}
+.contactoContent{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 180%;
+    color: #666;
+    margin: 0%;
+    padding: 0%;
+}

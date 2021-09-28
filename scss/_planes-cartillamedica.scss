@@ -1,0 +1,85 @@
+
+.planesContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan {
+    background-color: #ffffff;
+    color: #0f9932;
+    height: 15rem;
+}
+
+.planTitle {
+    color: white;
+    background-color: #333333;
+    font-size: 200%;
+    font-weight: 400;
+}
+
+.planList {
+    display: flex;
+    list-style-type: none;
+    font-size: 150%;
+    justify-content: space-around;
+
+}
+
+.planList li {
+    color: #ffffff;
+    font-size: 150%;
+    background-color: #0f9932;
+    padding: 1rem;
+    margin-top: 4rem;
+    border-radius: 0 5px;
+
+}
+
+/*------------TABLA------------*/
+.tablaTitle {
+    color: white;
+    background-color: #333333;
+    font-weight: 400;
+    font-size: 200%;
+
+}
+
+.tablaDetalle {
+    color: black;
+    font-size: 130%;
+    text-align: center;
+}
+
+.tablaDetalle tr td {
+    padding: 1rem;
+}
+
+.tablaEncabezado th {
+    color: #ffffff;
+    font-size: 180%;
+    font-weight: 400;
+    background-color: #0f9932;
+}
+
+.tablaDescripcion td {
+    background-color: #f1f1f1;
+    padding: 1rem;
+}
+
+.tabla p {
+    color: black;
+    font-size: 130%;
+}
+
+.cartillaTitle {
+    color: white;
+    background-color: #333333;
+    font-weight: 400;
+    font-size: 200%;
+}
+
+.cartillaLogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
