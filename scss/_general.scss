@@ -11,7 +11,7 @@ html {
 
 .header__inicio {
     color: white;
-    background-color: black;
+    background-color: $cverde;
     position: sticky;
     top: 0;
     display: flex;
@@ -56,7 +56,7 @@ html {
 
 .footer {
     color: #ffffff;
-    background-color: black;
+    background-color: $cverde;
     font-size: 150%;
     display: flex;
     justify-content: space-around;

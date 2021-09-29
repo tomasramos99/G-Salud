@@ -14,7 +14,7 @@ html {
 
 .header__inicio {
   color: white;
-  background-color: black;
+  background-color: #0f9932;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -64,7 +64,7 @@ html {
 
 .footer {
   color: #ffffff;
-  background-color: black;
+  background-color: #0f9932;
   font-size: 150%;
   display: -webkit-box;
   display: -ms-flexbox;
