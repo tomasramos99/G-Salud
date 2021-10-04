@@ -9,7 +9,7 @@ html {
     /* por defecto es 100%, 62.5% cambia la base de 16px a 10px*/
 }
 
-.header__inicio {
+.headerInicio {
     color: white;
     background-color: $cverde;
     position: sticky;
@@ -19,36 +19,36 @@ html {
     z-index: 2;
 }
 
-.header__title {
+.headerTitle {
     padding-top: 0.5rem;
     padding-left: 7rem;
 }
 
-.header__title a {
+.headerTitle a {
     font-weight: 600;
     font-size: 250%;
     text-decoration: none;
     color: #ffffff;
 }
 
-.header__navegacion {
+.headerNavegacion {
     text-align: right;
     padding-top: 3rem;
 }
 
 
-.header__navegacion li {
+.headerNavegacion li {
     font-size: 200%;
     display: inline;
     margin: 3rem;
     transition: font-size 0.3s;
 }
 
-.header__navegacion li:hover {
+.headerNavegacion li:hover {
     font-size: 220%;
 }
 
-.header__navegacion__list li a {
+.headerNavegacion__list li a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -63,20 +63,20 @@ html {
     height: 18rem;
 }
 
-.footer__menu__list {
+.footerMenuList {
     list-style-type: none;
 }
 
-.footer__menu__list li {
+.footerMenuList li {
     margin: 1rem;
 }
 
-.footer__menu__list a {
+.footerMenuList a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.footer_informacion__contacto p {
+.footerInformacionContacto p {
     margin: 1rem;
 }
 
