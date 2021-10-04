@@ -9,20 +9,24 @@
     width: 40rem;
     text-align: center;
     z-index: 1;
-    background-color: #bdbdbd3b;
 }
 
 .iconwhatsapp{
     display: flex;
     position: fixed;
-    top: 85%;
-    left: 93%;
+    top: 82%;
+    left: 92%;
     justify-content: flex-end;
     z-index: 2;
 }
 
 .iconwhatsapp img {
     width: 65px;
+    transition: width 0.3s;
+}
+
+.iconwhatsapp a img:hover {
+    width: 75px;
 }
 
 .planInicio {
@@ -53,6 +57,7 @@
 
 .planInicioTitle:hover {
     font-size: 450%;
+    color: $cverde;
 }
 
 .planInicioList {
@@ -72,9 +77,14 @@
 }
 
 .planInicioList li:hover {
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
+
+.planInicioList li a{
+    color: white;
+    text-decoration: none;
+}
 
 .opcion {
     color: #0f9932;
@@ -88,12 +98,14 @@
 }
 
 .opcionList li {
-    margin: 5rem;
+    height: 15rem;
+    width: 15rem;
     flex-direction: row;
     list-style-type: none;
     color: #0f9932;
     font-size: 200%;
-    padding: 1rem;
+    margin: 5rem;
+    text-align: center;
 }
 
 
