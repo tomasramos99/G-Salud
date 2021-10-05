@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
 * {
   margin: 0;
@@ -18,36 +19,40 @@ html {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  /*  display: flex;
+    justify-content: space-around;*/
   z-index: 2;
+  width: 100%;
 }
 
+/*
 .headerTitle {
-  padding-top: 0.5rem;
-  padding-left: 7rem;
-}
-
+    padding-top: 0.5rem;
+    padding-left: 7rem;
+}*/
 .headerTitle a {
   font-weight: 600;
-  font-size: 250%;
+  font-size: 450%;
   text-decoration: none;
   color: #ffffff;
+  margin-left: 7rem;
+}
+
+.nav-item {
+  color: white;
 }
 
 .headerNavegacion {
-  text-align: right;
-  padding-top: 3rem;
+  /*text-align: end;
+    padding-top: 3rem;*/
+  width: 100%;
+  color: white;
 }
 
 .headerNavegacion li {
   font-size: 200%;
-  display: inline;
-  margin: 3rem;
+  /* display: inline;
+    margin: 3rem;*/
   -webkit-transition: font-size 0.3s;
   transition: font-size 0.3s;
 }
@@ -59,7 +64,10 @@ html {
 .headerNavegacionList li a {
   color: white;
   text-decoration: none;
-  text-transform: uppercase;
+}
+
+.spaceMenu {
+  padding: 0rem 2rem;
 }
 
 .footer {
@@ -106,6 +114,30 @@ html {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+}
+
+.imgTamaño {
+  width: 30px;
+}
+
+@media (max-width: 600px) {
+  .headerTitle a {
+    margin-left: 1rem;
+  }
+  .footer {
+    font-size: 120%;
+    height: 100%;
+  }
+  .footerMenuList li {
+    margin: 0.5rem;
+  }
+  .footerInformacionContacto p {
+    margin: 0.5rem;
+  }
+  .imgTamaño {
+    width: 15px;
+    height: 15px;
+  }
 }
 
 .textBanner {
@@ -228,7 +260,7 @@ html {
   list-style-type: none;
   color: #0f9932;
   font-size: 200%;
-  margin: 5rem;
+  margin: 7rem;
   text-align: center;
 }
 
@@ -272,6 +304,65 @@ html {
   color: #666;
   margin: 0%;
   padding: 0%;
+}
+
+@media (max-width: 600px) {
+  .textBanner {
+    font-size: 150%;
+    width: 10rem;
+    top: 3rem;
+    left: 3rem;
+  }
+  .iconwhatsapp {
+    top: 85%;
+    left: 85%;
+  }
+  .iconwhatsapp img {
+    width: 45px;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s;
+  }
+  .iconwhatsapp a img:hover {
+    width: 55px;
+  }
+  .fotoFamiliaPlan {
+    width: 30rem;
+  }
+  .planInicio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .planInicioContent {
+    font-size: 190%;
+  }
+  .planInicioTitle {
+    font-size: 270%;
+  }
+  .planInicioTitle:hover {
+    font-size: 300%;
+  }
+  .planInicioList li {
+    margin: 0rem 0.5rem;
+  }
+  .planInicioList li:hover {
+    padding: 1.5rem;
+  }
+  .opcionList li {
+    margin: 0.5rem;
+  }
+  .contactoInicio {
+    background-color: #f2f2f2;
+    height: 100%;
+  }
+  .contactoContent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
 }
 
 .planesContent {

@@ -104,7 +104,7 @@
     list-style-type: none;
     color: #0f9932;
     font-size: 200%;
-    margin: 5rem;
+    margin: 7rem;
     text-align: center;
 }
 
@@ -141,4 +141,68 @@
     color: #666;
     margin: 0%;
     padding: 0%;
+}
+
+@media (max-width: 600px) {
+    .textBanner {
+        font-size: 150%;
+        width: 10rem;
+        top: 3rem;
+        left: 3rem;
+    }
+    .iconwhatsapp{
+        top: 85%;
+        left: 85%;
+    }
+
+    .iconwhatsapp img {
+        width: 45px;
+        transition: width 0.3s;
+    }
+    
+    .iconwhatsapp a img:hover {
+        width: 55px;
+    }
+
+    .fotoFamiliaPlan{
+        width: 30rem;
+    }
+    .planInicio {
+        flex-direction: column;
+    }
+    
+    .planInicioContent {
+        font-size: 190%;
+    }
+
+    .planInicioTitle {
+        font-size: 270%;
+    }
+
+    .planInicioTitle:hover {
+        font-size: 300%;
+    }
+
+    .planInicioList li {
+        margin: 0rem 0.5rem;
+    }
+
+    .planInicioList li:hover {
+        padding: 1.5rem;
+    }
+        
+
+    .opcionList li {
+        margin: 0.5rem;
+    }
+
+    .contactoInicio{
+        background-color: #f2f2f2;
+        height: 100%;
+    }
+    .contactoContent{
+        flex-direction: column;
+        text-align: center;
+    }
+
 }
