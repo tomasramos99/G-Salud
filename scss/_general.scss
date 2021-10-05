@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif
 }
+
 html {
     font-size: 62.5%;
     /* por defecto es 100%, 62.5% cambia la base de 16px a 10px*/
@@ -14,11 +15,12 @@ html {
     background-color: $cverde;
     position: sticky;
     top: 0;
-  /*  display: flex;
+    /*  display: flex;
     justify-content: space-around;*/
     z-index: 2;
     width: 100%;
 }
+
 /*
 .headerTitle {
     padding-top: 0.5rem;
@@ -33,12 +35,12 @@ html {
     margin-left: 7rem;
 }
 
-.nav-item{
+.nav-item {
     color: white;
 }
 
 .headerNavegacion {
-   /*text-align: end;
+    /*text-align: end;
     padding-top: 3rem;*/
     width: 100%;
     color: white;
@@ -47,7 +49,7 @@ html {
 
 .headerNavegacion li {
     font-size: 200%;
-   /* display: inline;
+    /* display: inline;
     margin: 3rem;*/
     transition: font-size 0.3s;
 }
@@ -61,7 +63,7 @@ html {
     text-decoration: none;
 }
 
-.spaceMenu{
+.spaceMenu {
     padding: 0rem 2rem;
 }
 
@@ -91,28 +93,32 @@ html {
     margin: 1rem;
 }
 
-.redesSociales{
+.redesSociales {
     display: flex;
     flex-direction: column;
 }
 
-.redesSociales div{
+.redesSociales div {
     display: flex;
     text-align: center;
 }
-.imgTamaño{
+
+.imgTamaño {
     width: 30px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
     .headerTitle a {
         margin-left: 1rem;
-    } 
+    }
+
     .footer {
         font-size: 120%;
-        height: 100% /*18rem*/;
+        height: 100%
+            /*18rem*/
+        ;
     }
-    
+
     .footerMenuList li {
         margin: 0.5rem;
     }
@@ -120,8 +126,8 @@ html {
     .footerInformacionContacto p {
         margin: 0.5rem;
     }
-    
-    .imgTamaño{
+
+    .imgTamaño {
         width: 15px;
         height: 15px;
     }
