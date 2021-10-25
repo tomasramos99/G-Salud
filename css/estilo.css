@@ -551,7 +551,8 @@ html {
           "FAQ";
   }
   .imageTramite{
-    width: 350px;
+    align-items: center;
+    width: 100%;
   }
 }
 
@@ -581,7 +582,7 @@ html {
 
 @media (max-width: 600px) {
   .imageNosotros{
-      width: 55rem;
+      width: 100%;
   }
   .nosotrosContent {
       flex-direction: column;
@@ -638,9 +639,7 @@ html {
 }
 @media (max-width: 600px) {
   .imageContacto {
-      float: left;
-      width: 350px;
-      align-items: center;
+      width: 100%;
   }
 }
 .errorContent {
