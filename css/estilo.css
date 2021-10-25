@@ -470,7 +470,8 @@ html {
   grid-auto-columns: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-      grid-template-areas: "Image inicioSesion" "FAQ FAQ";
+      grid-template-areas: "Image inicioSesion"
+ "FAQ FAQ";
 }
 
 .tramites {
