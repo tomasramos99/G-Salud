@@ -15,17 +15,9 @@ html {
     background-color: $cverde;
     position: sticky;
     top: 0;
-    /*  display: flex;
-    justify-content: space-around;*/
     z-index: 2;
     width: 100%;
 }
-
-/*
-.headerTitle {
-    padding-top: 0.5rem;
-    padding-left: 7rem;
-}*/
 
 .headerTitle a {
     font-weight: 600;
@@ -40,8 +32,6 @@ html {
 }
 
 .headerNavegacion {
-    /*text-align: end;
-    padding-top: 3rem;*/
     width: 100%;
     color: white;
 }
@@ -49,8 +39,6 @@ html {
 
 .headerNavegacion li {
     font-size: 200%;
-    /* display: inline;
-    margin: 3rem;*/
     transition: font-size 0.3s;
 }
 
@@ -114,9 +102,7 @@ html {
 
     .footer {
         font-size: 120%;
-        height: 100%
-            /*18rem*/
-        ;
+        height: 100%;
     }
 
     .footerMenuList li {

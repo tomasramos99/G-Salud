@@ -1,6 +1,7 @@
 
 .imageContacto {
     float: left;
+    width: 663px;
 }
 
 .formularioTitle {
@@ -42,4 +43,11 @@
     color: #575756;
     font-size: 200%;
     text-align: center;
+}
+
+@media (max-width: 600px) {
+    .imageContacto {
+        float: left;
+        width: 100%;
+    }
 }
