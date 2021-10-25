@@ -6,7 +6,9 @@
     font-weight: 400;
     margin: 0rem;
 }
-
+.imageNosotros{
+    width: 600px;
+}
 /*-----------CONTENT-------------*/
 .nosotrosContent {
     display: flex;
@@ -20,3 +22,15 @@
     margin-left: 2rem;
     width: 70rem;
 }
+
+@media (max-width: 600px) {
+    .imageNosotros{
+        width: 55rem;
+    }
+    .nosotrosContent {
+        flex-direction: column;
+    }
+    .nosotrosContentP {
+        width: 90%;
+    }
+  }

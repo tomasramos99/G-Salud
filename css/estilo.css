@@ -460,6 +460,15 @@ html {
           align-items: center;
 }
 
+@media (max-width: 600px) {
+  .cartillaLogo{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+  }
+}
+
 .contentTramites {
   display: -ms-grid;
   display: grid;
@@ -528,6 +537,24 @@ html {
   font-size: 100%;
 }
 
+@media (max-width: 600px) {
+  .contentTramites {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-auto-columns: 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+          "Image" 
+          "inicioSesion"
+          "FAQ";
+  }
+  .imageTramite{
+    width: 50rem;
+  }
+}
+
 .nosotrosTitle {
   color: #ffffff;
   background-color: #333333;
@@ -552,8 +579,21 @@ html {
   width: 70rem;
 }
 
+@media (max-width: 600px) {
+  .imageNosotros{
+      width: 55rem;
+  }
+  .nosotrosContent {
+      flex-direction: column;
+  }
+  .nosotrosContentP {
+      width: 90%;
+  }
+}
+
 .imageContacto {
   float: left;
+  width: 663px;
 }
 
 .formularioTitle {
@@ -596,7 +636,12 @@ html {
   font-size: 200%;
   text-align: center;
 }
-
+@media (max-width: 600px) {
+  .imageContacto {
+      float: left;
+      width: 50rem;
+  }
+}
 .errorContent {
   display: -webkit-box;
   display: -ms-flexbox;
