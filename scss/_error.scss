@@ -1,27 +1,28 @@
-
-.errorContent{
+.errorContent {
     display: flex;
     align-items: center;
     flex-direction: column;
-    img{
+
+    img {
         margin-top: 5rem;
         width: 15%;
     }
-    p{
+
+    p {
         font-size: 250%;
     }
-    a{
+
+    a {
         text-decoration: none;
-        h2{
+
+        h2 {
             margin: 2rem;
             padding: 1rem;
             background-color: #0f9932;
             color: white;
             border-radius: 10%;
         }
-    
+
     }
-    
+
 }
-
-
